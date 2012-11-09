@@ -17,4 +17,6 @@ extern NSString * const kCHStoryboardIdentifierItems;
 
 @property (strong, nonatomic) CHItemStore *itemStore;
 
+- (id)initWithItemStore:(CHItemStore *)itemStore;
+
 @end

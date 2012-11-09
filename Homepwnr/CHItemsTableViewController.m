@@ -26,6 +26,26 @@ NSString * const kCHStoryboardIdentifierItems = @"Items Table View Controller";
 
 @implementation CHItemsTableViewController
 
+#pragma mark - Initialization
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        NSAssert(NO, @"Base init is restricted.");
+    }
+    return self;
+}
+
+- (id)initWithItemStore:(CHItemStore *)itemStore
+{
+    self = [super init];
+    if (self) {
+        _itemStore = itemStore;
+    }
+    return self;
+}
+
 #pragma mark - All Items Property
 
 - (NSArray *)allItems

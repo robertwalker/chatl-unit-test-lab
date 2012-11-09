@@ -23,13 +23,13 @@
 {
     [self randomizeItemStore];
 
-    CHItemsTableViewController *itemsTVC = [[CHItemsTableViewController alloc] init];
-    [itemsTVC setItemStore:[self itemStore]];
+//    CHItemsTableViewController *itemsTVC = [[CHItemsTableViewController alloc] init];
+//    [itemsTVC setItemStore:[self itemStore]];
     
-    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:itemsTVC];
+//    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:itemsTVC];
     
     UIWindow *mainWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    [mainWindow setRootViewController:navVC];
+//    [mainWindow setRootViewController:navVC];
     [mainWindow makeKeyAndVisible];
     [self setWindow:mainWindow];
     

@@ -24,7 +24,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in HomepwnrTests");
+    //STFail(@"Unit tests are not implemented yet in HomepwnrTests");
 }
 
 @end
